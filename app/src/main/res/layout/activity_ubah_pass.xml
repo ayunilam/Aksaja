@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EEEEEE"
+    tools:context=".UbahPassActivity">
+
+    <ImageView
+        android:id="@+id/shape8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape8"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kata Sandi"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"/>
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/back2"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/shape9"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/shape8"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/text24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Kata sandi lama"
+        android:textSize="18dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="190dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"/>
+
+    <EditText
+        android:id="@+id/passw1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape3"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/text24"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="100dp"
+        android:inputType="textPassword"
+        android:text="12345678"
+        android:paddingLeft="20dp"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/text25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Kata sandi baru"
+        android:textSize="18dp"
+        android:layout_below="@+id/passw1"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"/>
+
+    <EditText
+        android:id="@+id/passw2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape3"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/text25"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="100dp"
+        android:inputType="textPassword"
+        android:text="12345678"
+        android:paddingLeft="20dp"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/text26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Konfirmasi kata sandi"
+        android:textSize="18dp"
+        android:layout_below="@+id/passw2"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"/>
+
+    <EditText
+        android:id="@+id/passw3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape3"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/text26"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="100dp"
+        android:inputType="textPassword"
+        android:text="12345678"
+        android:paddingLeft="20dp"
+        android:textSize="16dp"/>
+
+    <ImageButton
+        android:id="@+id/button4"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#897667"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="16dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/masuk4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="112dp"/>
+
+</RelativeLayout>

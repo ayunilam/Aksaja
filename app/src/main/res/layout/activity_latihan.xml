@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EEEEEE"
+    tools:context=".LatihanActivity">
+
+    <TextView
+        android:id="@+id/latihan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latihan Soal"
+        android:textColor="#000000"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/ayo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ayo pilih latihan yang ingin kamu kerjakan!"
+        android:textSize="14dp"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="#949391"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/latihan"
+        android:layout_marginTop="-5dp"/>
+
+    <ImageView
+        android:id="@+id/gambarartikel"
+        android:layout_width="400dp"
+        android:layout_height="280dp"
+        android:src="@drawable/artikel2"
+        android:layout_below="@+id/ayo"
+        android:scaleType="fitCenter"/>
+
+    <ImageButton
+        android:id="@+id/soal1"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:src="@drawable/soal1"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@+id/gambarartikel"
+        android:onClick="onClickSoalButton"/>
+
+    <ImageButton
+        android:layout_centerHorizontal="true"
+        android:id="@+id/soal2"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:src="@drawable/soal3"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:layout_below="@+id/soal1"/>
+
+    <ImageButton
+        android:layout_centerHorizontal="true"
+        android:id="@+id/soal3"
+        android:layout_below="@+id/soal2"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:src="@drawable/soal4"
+        android:background="@null"
+        android:scaleType="fitCenter"/>
+
+    <ImageButton
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/soal3"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:src="@drawable/soal5"
+        android:background="@null"
+        android:scaleType="fitCenter"/>
+
+<!--    <ImageButton-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/soal6"-->
+<!--        android:background="@null"-->
+<!--        android:scaleType="fitCenter"-->
+<!--        android:layout_below="@+id/soal1"-->
+<!--        android:layout_marginTop="-150dp"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:layout_marginEnd="20dp"/>-->
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/shape10"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:src="@drawable/shape11"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="190dp"/>
+
+    <ImageButton
+        android:id="@+id/btn_home3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="25dp"
+        android:background="@null"
+        android:onClick="onClickImageHome3"
+        android:scaleType="fitCenter"
+        android:src="@drawable/home_grey"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="238dp"
+        android:layout_marginBottom="29dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Latihan"
+        android:textColor="#ffffff"
+        android:textSize="12dp"
+        tools:ignore="SpUsage,TextSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/btn_book3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginBottom="25dp"
+        android:background="@null"
+        android:onClick="onClickImageBook3"
+        android:scaleType="fitCenter"
+        android:src="@drawable/book_grey"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/btn_flag3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="205dp"
+        android:layout_marginBottom="25dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/flag_white"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/btn_profile3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="330dp"
+        android:layout_marginBottom="25dp"
+        android:background="@null"
+        android:onClick="onClickImageProfile3"
+        android:scaleType="fitCenter"
+        android:src="@drawable/profile_grey"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+</RelativeLayout>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFAEA0"
+    android:orientation="vertical"
+    tools:context=".VerificationActivity">
+
+    <ImageView
+        android:id="@+id/verification1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-248dp"
+        android:src="@drawable/ellipse4" />
+
+    <ImageView
+        android:id="@+id/verification"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/fotgot_pass"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:id="@+id/pass2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Verifikasi OTP"
+        android:textColor="#000000"
+        android:textSize="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="400dp"/>
+
+    <TextView
+        android:id="@+id/text23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pass2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:text="Masukkan kode yang sudah kami kirim ke Email anda!"
+        android:textColor="#949391"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/kotak1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text23"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shape5"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textSize="20dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/kotak2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text23"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shape5"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textSize="20dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/kotak3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text23"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shape5"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textSize="20dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/kotak4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text23"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shape5"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textSize="20dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button7"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="80dp"
+        android:src="@drawable/shape"
+        android:backgroundTint="#897667"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="16dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/masuk3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verifikasi"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="92dp"/>
+
+
+
+</RelativeLayout>

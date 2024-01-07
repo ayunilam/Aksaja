@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFAEA0"
+    android:orientation="vertical"
+    tools:context=".ActivityOpening4">
+
+    <ImageView
+        android:id="@+id/learning3"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:src="@drawable/learning_kids"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"/>
+
+    <ImageView
+        android:id="@+id/ellipse3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ellipse"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-50dp"
+        android:layout_below="@+id/learning3"/>
+
+    <TextView
+        android:id="@+id/text10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Selamat Datang"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="280dp"
+        android:textColor="#000000"
+        android:textSize="38dp" />
+
+    <TextView
+        android:id="@+id/text11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="@font/poppins_bold"
+        android:text="di"
+        android:layout_marginLeft="110dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="230dp"
+        android:textColor="#000000"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/text12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="150dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Aksaja"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="230dp"
+        android:textColor="#897667"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/text13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="@font/poppins_bold"
+        android:text="!"
+        android:layout_marginLeft="275dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="230dp"
+        android:textColor="#000000"
+        android:textSize="35dp" />
+
+    <ImageButton
+        android:id="@+id/button3"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#897667"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="16dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/masuk3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lewati"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="133dp"/>
+
+    </RelativeLayout>

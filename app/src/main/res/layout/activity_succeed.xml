@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFAEA0"
+    android:orientation="vertical"
+    tools:context=".SucceedActivity">
+
+    <ImageView
+        android:id="@+id/success"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-327dp"
+        android:src="@drawable/ellipse4" />
+
+    <ImageView
+        android:id="@+id/success2"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/cuate"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:id="@+id/success3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Berhasil!"
+        android:textColor="#000000"
+        android:textSize="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="400dp"/>
+
+    <TextView
+        android:id="@+id/success4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/success3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:text="Kata sandi anda telah berhasil diatur ulang."
+        android:textColor="#949391"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <ImageView
+        android:id="@+id/success5"
+        android:layout_width="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="100dp"
+        android:layout_below="@+id/success4"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/checklist" />
+
+    <ImageButton
+        android:id="@+id/button8"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="80dp"
+        android:src="@drawable/shape"
+        android:background="@null"
+        android:backgroundTint="#897667"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="16dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/masuk3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masuk"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="92dp"/>
+
+</RelativeLayout>

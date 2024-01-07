@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/text14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hai!"
+        android:textSize="40dp"
+        android:textColor="#897667"
+        android:fontFamily="@font/poppins_extrabold"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/text15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text14"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-25dp"/>
+
+    <TextView
+        android:id="@+id/text16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali."
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text15"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-15dp"/>
+
+    <ImageView
+        android:id="@+id/teaching"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:src="@drawable/teaching"
+        android:layout_below="@+id/text16"
+        android:layout_marginTop="-70dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/text17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silahkan Login terlebih dahulu."
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/teaching"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="#949391"
+        android:layout_marginTop="-50dp"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape3"
+        android:fontFamily="@font/poppins_medium"
+        android:hint="Nama pengguna"
+        android:textSize="16dp"
+        android:layout_below="@id/text17"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        android:textColor="#000000"
+        android:inputType="text"
+        android:autofillHints="username"
+        android:textColorHint="#E2E1E1"/>
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape3"
+        android:fontFamily="@font/poppins_medium"
+        android:hint="Kata sandi"
+        android:textSize="16dp"
+        android:layout_below="@id/username"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        android:textColor="#000000"
+        android:inputType="textPassword"
+        android:autofillHints="password"
+        android:textColorHint="#E2E1E1"/>
+
+    <TextView
+        android:id="@+id/forgotpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lupa kata sandi?"
+        android:textColor="#897667"
+        android:textSize="13dp"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_below="@+id/pass"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="30dp"/>
+
+    <ImageButton
+        android:id="@+id/google"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/logogoogle"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/forgotpass"/>
+
+    <ImageButton
+        android:id="@+id/facebook"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/logo_facebook"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/forgotpass"/>
+
+    <ImageButton
+        android:id="@+id/button4"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#897667"
+        android:background="@drawable/shape"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/masuk4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masuk"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="92dp"/>
+
+    <TextView
+        android:id="@+id/masuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Belum punya akun?"
+        android:layout_below="@id/button4"
+        android:textSize="13dp"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="#949391"
+        android:layout_marginTop="-60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="108dp"/>
+
+    <TextView
+        android:id="@+id/masuk2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masuk"
+        android:layout_below="@id/button4"
+        android:textSize="13dp"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="#897667"
+        android:layout_marginTop="-60dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="118dp"/>
+
+</RelativeLayout>
